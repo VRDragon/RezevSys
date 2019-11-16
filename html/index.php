@@ -53,7 +53,7 @@
  function fun8()
  {
         exec("php posun.php");
-        exec("php kur.php");
+        exec("php Kur.php");
  }
 ?>
 <html>
