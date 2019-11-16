@@ -171,7 +171,7 @@ color:#0f0;
                 <div class="box">
                         <div class="login">
                                 <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Som veľkoobchodný zákazník</button>
-                                <button id="btnfun2" name="tlc" onClick='location.href="?button2=1"'>Som tu na odporúčanie</button>
+                                <button id="btnfun2" name="tlc" onClick='location.href="?button2=1"'>Som existujúci zákazník/ som tu na odporúčanie</button>
                         </div>
                         <div class="login">
                                 <button id="btnfun3" name="tlc" onClick='location.href="?button3=1"'>Mám dohodnutý termín/osobný odber</button>
