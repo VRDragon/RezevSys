@@ -29,7 +29,7 @@
  {
         exec("php posun.php");
         exec("php Ch.php");
-        header("Location:PDP.php");
+        header("Location:Naku.php");
  }
  function fun5()
  {
