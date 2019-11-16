@@ -1,4 +1,8 @@
-
+<?php
+$page = $_SERVER['PHP_SELF'];
+$sec = "60";
+header("Refresh: $sec; url=$page");
+?>
 <?php
  if($_GET['button1']){fun1();}
  if($_GET['button2']){fun2();}
@@ -153,13 +157,13 @@ color:#0f0;
 						switch ($status[$i]) 
 						{
 						case 1:
-							echo ("style='background-color:#2ECC71;'");
+							echo ("style=' background-color:#2ECC71;'");
 						break;
 						case 2:
-							echo ("style='background-color:#E74C3C;'");
+							echo (" style='background-color:#E74C3C;'");
 						break;
 						case 3:
-							echo ("style='background-color:#F4D03F;'");
+							echo (" style='background-color:#F4D03F;'");
 						break;
 						}
 						echo(">");
