@@ -26,6 +26,6 @@ transform: translateY(-50%);
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Pokiaľ nemáte dohodnutý termín, prosím kontaktujte kolegynku na čisle 0917 972 683 a dohodnite s ňou termín vybavenia. Pokiaľ nie sme práve zaneprázdnení inou činnosťou, budeme sa vás snažiť vybaviť promptne.<br />
+        <h1 style="color:#000;">Pokiaľ nemáte dohodnutý termín, prosím kontaktujte kolegyňku na tel. čisle 0917 972 683 a dohodnite si s ňou termín. Pokiaľ nie sme práve zaneprázdnení inou činnosťou, budeme sa vás snažiť vybaviť promptne.<br />
 		 </body>
 </html>
