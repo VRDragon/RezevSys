@@ -150,7 +150,7 @@ color:#0f0;
 							$index++;
 						}
                                                 $conn->close();
-						echo("<button name='tlc'");
+						echo("<h1");
 						switch ($Prior[$i]) 
 						{
 						case 1:
@@ -165,7 +165,7 @@ color:#0f0;
 						}
 						echo(">");
                                                 echo($texti[0]);
-						echo("</button>");
+						echo("</h1>");
                                         ?>
                 </div>
                 <div class="box">
