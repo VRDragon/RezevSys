@@ -6,7 +6,7 @@ header("Refresh: $sec; url=$page");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Reletronic Rezerva ^mny system</title>
+<title>Reletronic Rezervacmny system</title>
 <style>
 .login{
 font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", ser$
