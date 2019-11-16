@@ -139,7 +139,7 @@ color:#0f0;
                                                 if ($conn->connect_error) {
                                                     die("Connection failed: " . $conn->connect_error);
                                                 }
-                                                $sql = "SELECT txt FROM oznamTab";
+                                                $sql = "SELECT txt,Status FROM oznamTab";
                                                 $result = $conn->query($sql);
                                                 if ($result) {
                                                 }
@@ -154,7 +154,7 @@ color:#0f0;
 						}
                                                 $conn->close();
 		     				echo ("<div class='boxX' ");
-						switch ($status[$i]) 
+						switch ($status[0]) 
 						{
 						case 1:
 							echo ("style='background-color:#2ECC71;'");
