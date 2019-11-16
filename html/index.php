@@ -143,12 +143,29 @@ color:#0f0;
                                                 else echo "no";
                                                 $index = 0;
                                                 $txt = array();
+						$status = array();
                                                 while($row = $result->fetch_assoc()) {
-													$texti[$index] = $row["txt"];
-													$index++;
-												}
+							$texti[$index] = $row["txt"];
+							$texti[$index] = $row["Status"];
+							$index++;
+						}
                                                 $conn->close();
+						echo("<button name='tlc'");
+						switch ($Prior[$i]) 
+						{
+						case 1:
+							echo ("style='background-color:#2ECC71;'");
+						break;
+						case 2:
+							echo ("style='background-color:#E74C3C;'");
+						break;
+						case 3:
+							echo ("style='background-color:#F4D03F;'");
+						break;
+						}
+						echo(">");
                                                 echo($texti[0]);
+						echo("</button>");
                                         ?>
                 </div>
                 <div class="box">
