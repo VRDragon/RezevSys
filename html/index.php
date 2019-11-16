@@ -153,7 +153,7 @@ color:#0f0;
 							$index++;
 						}
                                                 $conn->close();
-		     				echo ("<div class='boxX'");
+		     				echo ("<div class='boxX' ");
 						switch ($status[$i]) 
 						{
 						case 1:
@@ -163,7 +163,7 @@ color:#0f0;
 							echo ("style='background-color:#E74C3C;'");
 						break;
 						case 3:
-							echo ('style="background-color:#F4D03F;"');
+							echo ("style='background-color:#F4D03F;'");
 						break;
 						}
 						echo(">");
