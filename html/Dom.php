@@ -26,6 +26,6 @@ transform: translateY(-50%);
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">ďakujeme Vám za záujem o naše poradenstvo. Z dôvodu vyťaženosti Vám prosíme, aby ste si dohodli termín cez email rezo@forled.sk alebo telefonicky na 0917 972 683. Prosím rezervujte si na to 2 hodiny času.<br />
+        <h1 style="color:#000;">Ďakujeme Vám za záujem o naše poradenstvo. Z dôvodu vyťaženosti Vás nie sme schopní vybaviť na počkanie, preto Vás prosíme, aby ste si dohodli vopred termín cez email rezo@forled.sk alebo telefonicky na 0917 972 683. Prosím rezervujte si na to 2 hodiny času.<br />
 		 </body>
 </html>
