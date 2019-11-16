@@ -20,7 +20,7 @@ font-size:70px;
 margin-bottom:1px;
 margin-top:1px;
 position: relative;
-top: 50%;
+top: 10%;
 transform: translateY(-50%);
 }
 </style>
