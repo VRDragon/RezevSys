@@ -123,8 +123,7 @@ color:#0f0;
 </head>
    <body style="text-align:center;">
         <h1 style="color:#000;">Vitajte vo ForLED.SK<br />
-                <div class="boxX">
-				
+                <div class="boxX"
                  <?php
                                                 $servername = "localhost";
                                                 $username = "admin";
@@ -150,7 +149,6 @@ color:#0f0;
 							$index++;
 						}
                                                 $conn->close();
-						echo("<h1");
 						switch ($Prior[$i]) 
 						{
 						case 1:
