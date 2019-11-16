@@ -26,6 +26,6 @@ transform: translateY(-50%);
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Poprosím o chvíľu strpenia, o chvíľu príde kolegynka a dohodne s Vami čo potrebujete.<br />
+        <h1 style="color:#000;">Poprosím o strpenie, o chvíľu príde kolegynka.<br />
 		 </body>
 </html>
