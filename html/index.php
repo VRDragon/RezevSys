@@ -94,8 +94,6 @@ background-color:#2ECC71;
 width: calc(97%);
 vertical-align: baseline;
 border-radius:20px;
-margin-bottom:10px;
-margin-top:10px;
 }
 button[name=tlc]{
 font-family: georgia;
