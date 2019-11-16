@@ -7,6 +7,7 @@
  if($_GET['button5']){fun5();}
  if($_GET['button6']){fun6();}
  if($_GET['button7']){fun7();}
+ if($_GET['button8']){fun8();}
   function fun1()
  {
         exec("php posun.php");
@@ -41,13 +42,18 @@
  {
         exec("php posun.php");
         exec("php Ine.php");
-        header("Location:PDP.php");
+        header("Location:Inet.php");
  }
  function fun7()
  {
         exec("php posun.php");
         exec("php Pb.php");
         header("Location:Dom.php");
+ }
+ function fun8()
+ {
+        exec("php posun.php");
+        exec("php kur.php");
  }
 ?>
 <html>
@@ -91,20 +97,6 @@ font-family: georgia;
 font-weight: bold;
 width:100%;
 background-color:#2ECC71;
-color:#000;
-padding:10px;
-font-size:30px;
-cursor:pointer;
-border-radius:20px;
-margin-bottom:10px;
-height: calc(40%);
-float:left;
-}
-button[name=nonetlc]{
-font-family: georgia;
-font-weight: bold;
-background-color:#fff;
-width:100%;
 color:#000;
 padding:10px;
 font-size:30px;
@@ -169,11 +161,11 @@ color:#0f0;
                         </div>
                         <div class="login">
                                 <button id="btnfun5" name="tlc" onClick='location.href="?button5=1"'>Poradenstvo: osvetlenie skladu,výroby, kancelárie, pouličné...</button>
-                                <button id="btnfun6" name="tlc" onClick='location.href="?button6=1"'>Ine...</button>
+                                <button id="btnfun8" name="tlc" onClick='location.href="?button8=1"'>Kuriér/Pošta</button>
                         </div>
                         <div class="login">
                                 <button id="btnfun7" name="tlc" onClick='location.href="?button7=1"'>Poradenstvo s výberom svetiel do domu či bytu</button>
-                                <button name="nonetlc"  type="button"></button>
+                                <button id="btnfun6" name="tlc" onClick='location.href="?button6=1"'>Ine...</button>
             </div>
         </div>
     </body>
