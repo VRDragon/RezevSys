@@ -17,7 +17,7 @@
  {
         exec("php posun.php");
         exec("php Od.php");
-        header("Location:PDP.php");
+        header("Location:Odpor.php");
 }
  function fun3()
  {
@@ -47,7 +47,7 @@
  {
         exec("php posun.php");
         exec("php Pb.php");
-        header("Location:PDP.php");
+        header("Location:Dom.php");
  }
 ?>
 <html>
