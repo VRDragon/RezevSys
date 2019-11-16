@@ -145,12 +145,12 @@ color:#0f0;
 						$status = array();
                                                 while($row = $result->fetch_assoc()) {
 							$texti[$index] = $row["txt"];
-							$texti[$index] = $row["Status"];
+							$status[$index] = $row["Status"];
 							$index++;
 						}
                                                 $conn->close();
 		     				echo ("<div class='boxX'");
-						switch ($Prior[$i]) 
+						switch ($status[$i]) 
 						{
 						case 1:
 							echo ("style='background-color:#2ECC71;'");
