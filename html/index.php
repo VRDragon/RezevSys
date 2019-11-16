@@ -126,7 +126,7 @@ color:#0f0;
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Vitajte vo ForLED.SK<br />
+        <h1 style="color:#000;">Prosím vyberte si z uvedených možností<br />
                 
                  <?php
                                                 $servername = "localhost";
