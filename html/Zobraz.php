@@ -104,6 +104,9 @@ color:#0f0;
 															case 7:
 														        echo ("style='background-color:#707B7C;'");
 														        break;
+															case 8:
+														        echo ("style='background-color:#00FF00;'");
+														        break;
 														}
 														echo(">");
                                                         echo($Klienty[$i]);
