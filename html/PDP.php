@@ -1,5 +1,5 @@
 <?php
-$sec = "3";
+$sec = "7";
 echo ($page);
 header("Refresh: $sec; url=index.php");
 ?>
@@ -26,6 +26,6 @@ transform: translateY(-50%);
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">MomentÃ¡lne sme vyÅ¾aÅ¥eni skuste prijsÅ¥ neskÃ´r alebo spraviÅ¥ objednavku<br />
+        <h1 style="color:#000;">Poprosím o strpenie o chvíľu Vám otvoríme.<br />
 		 </body>
 </html>
