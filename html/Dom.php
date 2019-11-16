@@ -1,5 +1,5 @@
 <?php
-$sec = "7";
+$sec = "20";
 echo ($page);
 header("Refresh: $sec; url=index.php");
 ?>
