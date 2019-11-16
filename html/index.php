@@ -185,7 +185,7 @@ color:#0f0;
                         </div>
                         <div class="login">
                                 <button id="btnfun7" name="tlc" onClick='location.href="?button7=1"'>Poradenstvo s výberom svetiel do domu či bytu</button>
-                                <button id="btnfun6" name="tlc" onClick='location.href="?button6=1"'>Ine...</button>
+                                <button id="btnfun6" name="tlc" onClick='location.href="?button6=1"'>Iné...</button>
             </div>
         </div>
     </body>
