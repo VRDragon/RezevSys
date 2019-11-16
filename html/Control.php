@@ -62,7 +62,7 @@ font-size:30px;
 cursor:pointer;
 border-radius:20px;
 margin-bottom:10px;
-height: calc(40%);
+height: calc(20%);
 float:left;
 }
 h4
