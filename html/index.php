@@ -121,6 +121,7 @@ h1
 {
 margin-bottom:1px;
 margin-top:1px;
+font-size: 50px;
 color:#0f0;
 }
 </style>
@@ -168,7 +169,7 @@ color:#0f0;
                                                 echo($texti[0]);
                                         ?>
                 </div>
-		<h1 style="color:#000;">Prosím kliknite na jednu z možností uvedených nižšie↓<br />
+		<h1 style="color:#000;">Prosím kliknite na jednu z možností uvedených nižšie ▼▼▼<br />
                 <div class="box">
                         <div class="login">
                                 <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Som veľkoobchodný zákazník</button>
