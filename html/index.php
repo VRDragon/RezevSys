@@ -126,8 +126,6 @@ color:#0f0;
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Prosím vyberte si z uvedených možností<br />
-                
                  <?php
                                                 $servername = "localhost";
                                                 $username = "admin";
@@ -170,6 +168,7 @@ color:#0f0;
                                                 echo($texti[0]);
                                         ?>
                 </div>
+		<h1 style="color:#000;">Prosím vyberte si z uvedených možností<br />
                 <div class="box">
                         <div class="login">
                                 <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Som veľkoobchodný zákazník</button>
