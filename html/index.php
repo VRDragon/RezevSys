@@ -54,6 +54,7 @@
  {
         exec("php posun.php");
         exec("php Kur.php");
+	header("Location:Odpor.php");
  }
 ?>
 <html>
