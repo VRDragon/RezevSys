@@ -55,64 +55,65 @@ color:#0f0;
 </head>
         <body background=color:#fff>
                 <form action="" method="post" style="text-align:center;">
-                                        <?php
-                                                $servername = "localhost";
-                                                $username = "admin";
-                                                $password = "test";
-                                                $dbname = "RezSys";
-                                                // Create connection
-                                                $conn = new mysqli($servername, $username, $password, $dbname);
-                                                // Check connection
-                                                if ($conn->connect_error) {
-                                                    die("Connection failed: " . $conn->connect_error);
-                                                }
-                                                $sql = "SELECT klient,priorita FROM Zakaznici";
-                                                $result = $conn->query($sql);
-                                                if ($result) {
-                                                }
-                                                else echo "no";
-                                                $index = 0;
-                                                $Klienty = array();
-                                                while($row = $result->fetch_assoc()) {
-													$Klienty[$index] = $row["klient"];
-													$Prior[$index] = $row["priorita"];
-													$index++;
-												}
-                                                $conn->close();
-                                                for ($i = 0; $i < 5; $i++)
-                                                {
-                                                        echo("<button name='tlc'");
-														switch ($Prior[$i]) {
-															case 1:
-															echo ("style='background-color:#2ECC71;'");
-															break;
-														    	case 2:
-														       	echo ("style='background-color:#5DADE2;'");
-														        break;
-														    	case 3:
-														        echo ("style='background-color:#F4D03F;'");
-														        break;
-															case 4:
-														        echo ("style='background-color:#F39C12;'");
-														        break;
-															case 5:
-														        echo ("style='background-color:#E74C3C;'");
-														        break;
-															case 6:
-														        echo ("style='background-color:#8E44AD;'");
-														        break;
-															case 7:
-														        echo ("style='background-color:#707B7C;'");
-														        break;
-															case 8:
-														        echo ("style='background-color:#00FF00;'");
-														        break;
-														}
-														echo(">");
-                                                        echo($Klienty[$i]);
-                                                        echo("</button>");
-                                                }
-                                        ?>
+     			<?php
+                             $servername = "localhost";
+                             $username = "admin";
+                             $password = "test";
+                             $dbname = "RezSys";
+                             // Create connection
+                             $conn = new mysqli($servername, $username, $password, $dbname);
+                             // Check connection
+                             if ($conn->connect_error) {
+                             	die("Connection failed: " . $conn->connect_error);
+                             }
+                             $sql = "SELECT klient,priorita FROM Zakaznici";
+                             $result = $conn->query($sql);
+                             if ($result) {
+                             }
+                             else echo "no";
+                             $index = 0;
+                             $Klienty = array();
+                             while($row = $result->fetch_assoc()) {
+			     	$Klienty[$index] = $row["klient"];
+				$Prior[$index] = $row["priorita"];
+				$index++;
+			     }
+                             $conn->close();
+                             for ($i = 0; $i < 5; $i++)
+                             {
+                             	echo("<button name='tlc'");
+				switch ($Prior[$i]) 
+				{
+				case 1:
+				echo ("style='background-color:#2ECC71;'");
+				break;
+				case 2:
+				echo ("style='background-color:#5DADE2;'");
+				break;
+				case 3:
+				echo ("style='background-color:#F4D03F;'");
+				break;
+				case 4:
+				echo ("style='background-color:#F39C12;'");
+				break;
+				case 5:
+				echo ("style='background-color:#E74C3C;'");
+				break;
+				case 6:
+				echo ("style='background-color:#8E44AD;'");
+				break;
+				case 7:
+				echo ("style='background-color:#707B7C;'");
+				break;
+				case 8:
+				echo ("style='background-color:#00FEFE;'");
+				break;
+				}
+			echo(">");
+                        echo($Klienty[$i]);
+                        echo("</button>");
+                        }
+               		?>
                </form>
     </body>
 </html>
