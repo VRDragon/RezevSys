@@ -1,7 +1,7 @@
 <?php
-$page = $_SERVER['PHP_SELF'];
+$page = "index.php";
 $sec = "180";
-header("location:index.php");
+header("Refresh: $sec; url=$page");
 ?>
 <?php
  if($_GET['button1']){fun1();}
