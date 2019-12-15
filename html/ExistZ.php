@@ -54,7 +54,7 @@ display:inline-block;
 position: relative;
 float:center;
 width: calc(100%);
-height: calc(80%);
+height: calc(70%);
 vertical-align: baseline;
 }
 .boxX{
