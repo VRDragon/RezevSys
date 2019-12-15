@@ -1,9 +1,4 @@
 <?php
-$page = $_SERVER['PHP_SELF'];
-$sec = "180";
-header("location:index.php");
-?>
-<?php
  if($_GET['button1']){fun1();}
   function fun1()//Dohodnuty termin
  {
