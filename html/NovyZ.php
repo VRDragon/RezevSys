@@ -30,7 +30,7 @@ header("Refresh: $sec; url=$page");
  {
         exec("php posun.php");
         exec("php ChN.php");
-        header("Location:Odpor.php");
+        header("Location:Naku.php");
  }
 
 ?>
