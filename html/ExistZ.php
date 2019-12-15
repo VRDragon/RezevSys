@@ -18,7 +18,7 @@ header("Refresh: $sec; url=$page");
  {
         exec("php posun.php");
         exec("php Ch.php");
-        header("Location:Odpor.php");
+        header("Location:Naku.php");
 }
  function fun3()//termin
  {
