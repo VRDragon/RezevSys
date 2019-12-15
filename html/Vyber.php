@@ -1,4 +1,9 @@
 <?php
+$page = "index.php";
+$sec = "180";
+header("Refresh: $sec; url=$page");
+?>
+<?php
  if($_GET['button1']){fun1();}
  if($_GET['button2']){fun2();}
   function fun1()//exist
