@@ -47,7 +47,7 @@ font-size:50px;
 cursor:pointer;
 border-radius:20px;
 margin-bottom:10px;
-height: calc(100%);
+height: calc(80%);
 float:left;
 }
 h4
