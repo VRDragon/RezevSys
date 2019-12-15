@@ -1,11 +1,3 @@
-<?php
- if($_GET['button1']){fun1();}
-  function fun1()//Dohodnuty termin
- {
-        header("Location:Vyber.php");
- }
-
-?>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -112,7 +104,7 @@ html, body {
                                         ?>
 		</di
                 <div class="box">
-                                <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Prosím dotknite sa displeja a zvoľte možnosť </button>
+                                <button id="btnfun1" name="tlc" "location.href='Vyber.php'>Prosím dotknite sa displeja a zvoľte možnosť </button>
 				</div>
 	</body>
 </html>
