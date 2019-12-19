@@ -139,7 +139,6 @@ html, body {
                                                 echo($texti[0]);
                                         ?>
 				</div>
-				<h1 style="color:#000;">Prosím kliknite na jednu z možností uvedených nižšie ▼▼▼ </h1> <br />
 		</div>
                 <div class="box">
                         <div class="login">
