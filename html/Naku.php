@@ -24,7 +24,7 @@ position: relative;
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Sme výdajňa tovaru k eshopu, preto Vás nemôžeme vybaviť bez toho, aby ste mali urobenú objednávku <br />
+        <h1 style="color:#000;">Sme výdajňa tovaru k eshopu, preto Vás nemôžeme vybaviť bez toho, aby ste mali urobenú objednávku.
         <h1 style="color:#000;">Urobte si ju prosím cez eshop www.forled.sk a hneď ako bude pripravená k odberu, budeme Vás kontaktovať.<br />
 		<h1 style="color:#000;"> Ak potrebujete poradiť, použite chatovacie okno alebo si dohodnite termín na 0917 972 683 <br/>
 		 </body>
