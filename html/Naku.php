@@ -16,7 +16,7 @@ background-color:#fff;
 width:100%;
 color:#000;
 padding:10px;
-font-size:70px;
+font-size:68px;
 margin-bottom:1px;
 margin-top:1px;
 position: relative;
