@@ -26,6 +26,6 @@ transform: translateY(-50%);
 </style>
 </head>
    <body style="text-align:center;">
-        <h1 style="color:#000;">Vstúpte<br />
+        <h1 style="color:#000;">Počkajte prosím na zvukový signál, otvoríme Vám.<br />
 		 </body>
 </html>
