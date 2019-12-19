@@ -116,7 +116,7 @@ html, body {
                                         ?>
 		</di
                 <div class="box">
-                                <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Prosím dotknite sa displeja a zvoľte možnosť </button>
+                                <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>
 				</div>
 	</body>
 </html>
