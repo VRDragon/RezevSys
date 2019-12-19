@@ -6,6 +6,7 @@ header("Refresh: $sec; url=$page");
 <?php
  if($_GET['button1']){fun1();}
  if($_GET['button2']){fun2();}
+ if($_GET['button3']){fun3();}
   function fun1()//exist
  {
         header("Location:ExistZ.php");
@@ -13,7 +14,13 @@ header("Refresh: $sec; url=$page");
  function fun2()//nový
  {
         header("Location:NovyZ.php");
-}
+ }
+ function fun3()//nový
+ {
+        exec("php posun.php");
+        exec("php Kur.php");
+	    header("Location:PDP.php");
+ }
 
 ?>
 <html>
@@ -28,7 +35,7 @@ margin-left: calc(1%);
 display:inline-block;
 position: relative;
 vertical-align: baseline;
-width: calc(46%);
+width: calc(30%);
 height:calc(100%);
 }
 .box{
@@ -140,6 +147,9 @@ html, body {
                         </div>
                         <div class="login">
                                 <button id="btnfun2" name="tlc" onClick='location.href="?button2=1"'>Som nový zákazník</button>
+                        </div>
+                        <div class="login">
+                                <button id="btnfun2" name="tlc" onClick='location.href="?button3=1"'>Kurier/pošta</button>
                         </div>
 				</div>
 	</body>
