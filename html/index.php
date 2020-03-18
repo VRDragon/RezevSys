@@ -113,10 +113,11 @@ html, body {
 						}
 						echo(">");
                                                 echo($texti[0]);
+	   					echo("</div>");
+	   					echo(" <div class="box">");
+	   					if ($status[0]==1)
+	   						echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
+	   					echo("</div>");
                                         ?>
-		</di
-                <div class="box">
-                                <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>
-				</div>
 	</body>
 </html>
