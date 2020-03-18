@@ -119,13 +119,15 @@ html, body {
                                                 }
                                                 echo(">");
                                                 echo($texti[0]);
-                                        ?>
-					</button>
-                                        <div class="box">
-                                        <?php
                                         if ($status[0]==1)
-                                                        echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
-                                        ?>
-                </div>
+					{
+						echo("</div>");
+						echo("<div class="box">");
+                                               	echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
+                                        	echo("</div>");
+					}
+					else 
+						echo("</button>");
+						?>
         </body>
 </html>
