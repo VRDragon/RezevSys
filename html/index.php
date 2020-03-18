@@ -120,7 +120,6 @@ html, body {
                                                 echo(">");
                                                 echo($texti[0]);
                                         ?>
-                                        //</div>
 					</button>
                                         <div class="box">
                                         <?php
