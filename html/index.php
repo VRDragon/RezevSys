@@ -21,7 +21,10 @@ position: relative;
 float:center;
 width: calc(100%);
 height: calc(80%);
-vertical-align: baseline;
+font-family: georgia;
+font-weight: bold;
+font-size:50px;
+vertical-align: center;
 }
 .boxX{
 position: relative;
@@ -98,26 +101,30 @@ html, body {
 							$index++;
 						}
                                                 $conn->close();
-		     				echo ("<di class='boxX' ");
-						switch ($status[0]) 
-						{
-						case 1:
-							echo ("style='background-color:#2ECC71;'");
-						break;
-						case 2:
-							echo ("style='background-color:#E74C3C;'");
-						break;
-						case 3:
-							echo ("style='background-color:#F4D03F;'");
-						break;
-						}
-						echo(">");
+		     				switch ($status[0])
+                                                {
+                                                case 1:
+                                                        echo ("<div class='boxX' ");
+                                                        echo ("style='background-color:#2ECC71;'");
+                                                break;
+                                                case 2:
+                                                        echo ("<div class='box' ");
+                                                        echo ("style='background-color:#E74C3C;'");
+                                                break;
+                                                case 3:
+                                                        echo ("<div class='box' ");
+                                                        echo ("style='background-color:#F4D03F;'");
+                                                break;
+                                                }
+                                                echo(">");
                                                 echo($texti[0]);
-	   					echo("</div>");
-	   					echo(" <div class="box">");
-	   					if ($status[0]==1)
-	   						echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
-	   					echo("</div>");
                                         ?>
-	</body>
+                                        </div>
+                                        <div class="box">
+                                        <?php
+                                        if ($status[0]==1)
+                                                        echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Pros  m dotknite sa displeja a$
+                                        ?>
+                </div>
+        </body>
 </html>
