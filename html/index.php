@@ -108,12 +108,12 @@ html, body {
                                                 break;
                                                 case 2:
                                                         //echo ("<div class='box' ");
-							echo ("<button name=\"tlc\" >");
+							echo ("<button name=\"tlc\" ");
                                                         echo ("style='background-color:#E74C3C;'");
                                                 break;
                                                 case 3:
                                                         //echo ("<div class='box' ");
-							echo ("<button name=\"tlc\" >");	
+							echo ("<button name=\"tlc\" ");	
                                                         echo ("style='background-color:#F4D03F;'");
                                                 break;
                                                 }
