@@ -122,7 +122,7 @@ html, body {
                                         if ($status[0]==1)
 					{
 						echo("</div>");
-						echo("<div class="box">");
+						echo("<div class=\"box\">");
                                                	echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
                                         	echo("</div>");
 					}
