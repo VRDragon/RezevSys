@@ -24,7 +24,6 @@ height: calc(80%);
 font-family: georgia;
 font-weight: bold;
 font-size:50px;
-vertical-align: center;
 }
 .boxX{
 position: relative;
