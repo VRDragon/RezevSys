@@ -107,18 +107,21 @@ html, body {
                                                         echo ("style='background-color:#2ECC71;'");
                                                 break;
                                                 case 2:
-                                                        echo ("<div class='box' ");
+                                                        //echo ("<div class='box' ");
+							echo ("<button name=\"tlc\" >");
                                                         echo ("style='background-color:#E74C3C;'");
                                                 break;
                                                 case 3:
-                                                        echo ("<div class='box' ");
+                                                        //echo ("<div class='box' ");
+							echo ("<button name=\"tlc\" >");	
                                                         echo ("style='background-color:#F4D03F;'");
                                                 break;
                                                 }
                                                 echo(">");
                                                 echo($texti[0]);
                                         ?>
-                                        </div>
+                                        //</div>
+					</button>
                                         <div class="box">
                                         <?php
                                         if ($status[0]==1)
