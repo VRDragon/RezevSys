@@ -60,10 +60,18 @@ color:#0f0;
 }
 h1
 {
+font-family: georgia;
+font-weight: bold;
+background-color:#fff;
+width:100%;
+color:#000;
+padding:10px;
+font-size:70px;
 margin-bottom:1px;
 margin-top:1px;
-font-size: 50px;
-color:#0f0;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 html, body {
   height: 99%;
@@ -105,29 +113,31 @@ html, body {
                                                 case 1:
                                                         echo ("<div class='boxX' ");
                                                         echo ("style='background-color:#2ECC71;'");
+							echo(">");
+                                               		echo($texti[0]);
+							echo("</div>");
+							echo("<div class=\"box\">");
+                                               		echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
+                                        		echo("</div>");
                                                 break;
                                                 case 2:
                                                         //echo ("<div class='box' ");
-							echo ("<button name=\"tlc\" ");
-                                                        echo ("style='background-color:#E74C3C;'");
+							echo ("<h1 style=\"color:#E74C3C;\" ");
+                                                        //echo ("style='background-color:#E74C3C;'");
+							echo(">");
+                                                	echo($texti[0]);
+							echo("<br />");	
+							echo("</body>");	
                                                 break;
                                                 case 3:
                                                         //echo ("<div class='box' ");
 							echo ("<button name=\"tlc\" ");	
                                                         echo ("style='background-color:#F4D03F;'");
+							echo(">");
+                                                	echo($texti[0]);
+							echo("</button>");
                                                 break;
-                                                }
-                                                echo(">");
-                                                echo($texti[0]);
-                                        if ($status[0]==1)
-					{
-						echo("</div>");
-						echo("<div class=\"box\">");
-                                               	echo("<button id=\"btnfun1\" name=\"tlc\" onClick='location.href=\"?button1=1\"'>Prosím dotknite sa displeja a zvoľte možnosť. Bez tohto sa dvere neotvoria  </button>");
-                                        	echo("</div>");
-					}
-					else 
-						echo("</button>");
-						?>
+                                                }				
+					?>
         </body>
 </html>
