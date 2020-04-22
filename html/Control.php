@@ -14,6 +14,29 @@
  {
         exec("php Vytaz.php");
  }
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+	$idm = $_POST['txt'];
+	echo $idm;
+	if(isset ($idm))
+	{
+       $servername = "localhost";
+	$username = "admin";
+	$password = "test";
+	$dbname = "RezSys";
+	$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+	if ($conn->connect_error) {
+  	  die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "UPDATE oznamTab SET txt = '$idm',Status = '2'  WHERE id='1'";
+	if ($conn->query($sql) === TRUE) {
+    	
+	} else {
+   	 echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+	$conn->close();
+	}
+ }
 ?>
 <html>
 <head>
@@ -52,6 +75,20 @@ margin-bottom:10px;
 margin-top:10px;
 }
 button[name=tlc]{
+font-family: georgia;
+font-weight: bold;
+width:100%;
+background-color:#2ECC71;
+color:#000;
+padding:10px;
+font-size:30px;
+cursor:pointer;
+border-radius:20px;
+margin-bottom:10px;
+height: calc(20%);
+float:left;
+}
+input[type=submit]{
 font-family: georgia;
 font-weight: bold;
 width:100%;
@@ -114,6 +151,10 @@ color:#0f0;
                                 <button id="btnfun1" name="tlc" onClick='location.href="?button1=1"'>Otvorene</button>
                                 <button id="btnfun2" name="tlc" onClick='location.href="?button2=1"'>Zatvorene</button>
                                 <button id="btnfun3" name="tlc" onClick='location.href="?button3=1"'>Vyťazené</button>
+				<form action="" method="post" style="text-align:center;">
+				<input type = "text" name = "txt" class = "box" /><br/>
+				<input type = "submit" value = " Zmeň text "/>
+				</form>
                         </div>
                 </div>
         </div>
